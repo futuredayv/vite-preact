@@ -2,7 +2,7 @@ import { h, render } from 'preact';
 
 import { App } from './app';
 
-import '@Styles/global.css';
+import '@Styles/global.scss';
 
 const entryPoint = document.getElementById('app');
 

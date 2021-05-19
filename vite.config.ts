@@ -16,6 +16,7 @@ const config: UserConfig = {
       { find: '@Hooks', replacement: resolve('./src/Hooks/') },
       { find: '@Contexts', replacement: resolve('./src/Contexts/') },
       { find: '@Styles', replacement: resolve('./src/Styles/') },
+      { find: '@Assets', replacement: resolve('./src/Assets/') },
       { find: '@Utils', replacement: resolve('./src/Utils/') },
     ],
   },
